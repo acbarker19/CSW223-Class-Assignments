@@ -1,0 +1,23 @@
+/* Alec Barker */
+
+body {
+	background-color: #9f9;
+	color: #090;
+}
+
+
+canvas {
+	margin: 20px 20px 20px 20px;
+	border: 8px solid #ccc;
+}
+
+
+input {
+	color: #090;
+	background-color: #6f3;
+	font-size: 120%;
+}
+
+input:hover {
+	background-color: #39e600;
+}

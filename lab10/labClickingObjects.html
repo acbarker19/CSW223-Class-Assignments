@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;
+      charset=windows-1252">
+    <title>Clicking Objects</title>
+    <!--external js file is loaded-->
+    <script src="lab_files/Ball.js"></script>
+    <script src="lab_files/MyClickArea.js"></script>
+    <script src="lab_files/jsOne.js"></script>
+	<script src="lab_files/Door.js"></script>
+	<script src="lab_files/Lightbulb.js"></script>
+	<script src="lab_files/Car.js"></script>
+  </head>
+  <!--init() function called when page is first opened--> <body
+    onload="jsInit();">
+    <a
+href="https://www.html5canvastutorials.com/advanced/html5-canvas-mouse-coordinates/">HTML5
+      Canvas Mouse Coordinates Tutorial</a><br>
+    <blockquote>
+      <blockquote>
+        <table width="400" cellspacing="2" cellpadding="2" border="3"
+          height="300">
+          <tbody>
+            <tr>
+              <td valign="top"> <canvas id="myCanvas" width="400"
+                  height="300"></canvas> </td>
+            </tr>
+          </tbody>
+        </table>
+      </blockquote>
+    </blockquote>
+<!--    <br>
+    In a canvas you can have 5 different mouse events: down, move, up,
+    over and out.<br>
+    <br>
+    <!-- style="display: none" -->
+<!--    <table width="800" cellspacing="2" cellpadding="2" border="1"
+      height="194">
+      <tbody>
+        <tr>
+          <td width="200" valign="top">---------------------------------------------------------------</td>
+          <td valign="top">---------------------------------------------------------------</td>
+        </tr>
+        <tr>
+          <td id="mouseDownInfo" valign="top">mouseDownInfo here</td>
+          <td id="mouseDownInfoBall" valign="top">mouseDownInfoBall here<br>
+          </td>
+        </tr>
+        <tr>
+          <td id="mouseMoveInfo" valign="top">mouseMoveInfo here</td>
+          <td id="mouseMoveInfoBall" valign="top">mouseMoveInfoBall here</td>
+        </tr>
+        <tr>
+          <td id="mouseUpInfo" valign="top">mouseUpInfo here</td>
+          <td id="mouseUpInfoBall" valign="top">mouseUpInfoBall here</td>
+        </tr>
+        <tr>
+          <td id="mouseOverInfo" valign="top">mouseOverInfo here</td>
+          <td id="mouseOverInfoBall" valign="top">mouseOverInfoBall here</td>
+        </tr>
+        <tr>
+          <td id="mouseOutInfo" valign="top">mouseOutInfo here</td>
+          <td id="mouseOutInfoBall" valign="top">mouseOutInfoBall here</td>
+        </tr>
+        <tr>
+          <td <="" td="" valign="top"> <br>
+          </td>
+          <td valign="top"> <br>
+          </td>
+        </tr>
+        <tr>
+          <td id="countInfo" valign="top">countInfo here</td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br> -->
+    <!--'scriptInfo' html element content can be changed from external js 
+           (see 'function displayInfo(theInfo)' in external file)-->
+    <blockquote>
+      <blockquote>
+        <blockquote>
+          <blockquote>
+            <!-- style="display: none" -->
+            <p id="scriptInfo">script <b>info</b> here</p>
+            <p>Click on the car to turn the lights on or off.</p>
+          </blockquote>
+        </blockquote>
+      </blockquote>
+    </blockquote>
+	<hr>
+	<input type="button" value="Restart Car" onclick="_g_myCar.restartCar();">
+	<br>
+	<br>
+	<input type="button" value="Drive Car" onclick="_g_myCar.driveCar();">
+	<hr>
+	<input type="button" value="Red" onclick="_g_myCar.setColor('red');">
+	<input type="button" value="Green" onclick="_g_myCar.setColor('green');">
+	<input type="button" value="Blue" onclick="_g_myCar.setColor('blue');">
+<!--    <br>
+    <hr>
+    <p>Experiment with this example.<br>
+    </p>
+    <p>Be certain that you know how to make the clicking area both
+      visible and not visible for debugging.<br>
+    </p>
+    <p>Make the drawing area of the ball larger than the clicking area.</p>
+    <p>Make the clicking area of the ball larger than the drawing area.<br>
+    </p>
+    <p>Make a simple House class that has a door, and make a House
+      object visible on the canvas. When you click on the door area of
+      the House, the door should toggle open and close.<br>
+    </p>
+    <p>Demo the lab for your instructor. </p>
+    <p><br>
+    </p> -->
+  </body>
+</html>

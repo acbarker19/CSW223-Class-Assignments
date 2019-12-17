@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Final Exam</title>
+		<script src="init.js"></script>
+		<script src="Person.js"></script>
+		<link rel="stylesheet" href="person.css">
+	</head>
+	<body onload="init();">
+		<p>My name is Alec Barker.</p>
+		<p>"Some people dream of success, while other people get up every morning and make it happen."</p>
+		<p>-Wayne Huizenga</p>
+		<table width="400" height="400" border="1">
+			<tbody>
+				<tr>
+					<td><canvas id="myCanvas" width="400" height="400"></canvas></td>
+				</tr>
+			</tbody>
+		</table>
+		<input type="button" value="Start With 3 People" onclick="create3People();">
+		<input type="button" value="Random Colors" onclick="randomColors();">
+		<input type="button" value="Show Hair" onclick="showHair();">
+		<input type="button" value="Hide Hair" onclick="hideHair();">
+		<input type="button" value="Say Hello" onclick="sayHello();">
+		<input type="button" value="Say Nothing" onclick="sayNothing();">
+		<input type="button" value="Move Left 10" onclick="moveLeft();">
+		<input type="button" value="Move Right 10" onclick="moveRight();">
+		<input type="button" value="New Person" onclick="newPerson();">
+		<br>
+		<input id="numField" value="3" size="6"> <button
+			onclick="doButtonInputText();">Set The Number Of People</button>
+	</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="lab02.css">
+		<script src="lab02.js"></script>
+		<title>Lab 02</title>
+	</head>
+	<body onload="init();">
+		<h2>Lab 02</h2>
+		<canvas id="myCanvas" width="250" height="150"></canvas>
+		<br>
+		<input type="button" value="Red" onclick="changeToRed();" />
+		<input type="button" value="Green" onclick="changeToGreen();" />
+		<input type="button" value="Blue" onclick="changeToBlue();" />
+		<br>
+		<input type="button" value="Random Movement" onclick="changeLocation();" />
+		<hr>
+		<h3>Text #1: </h3><p id="text1">Example Text</p>
+		<input type="button" value="Change Text #1" onclick="changeText1();" />
+		<hr>
+		<h3>Text #2: </h3><p id="text2">Example Text</p>
+		<input type="button" value="Change Text #2" onclick="changeText2();" />
+		<hr>
+		<h3>Text #3: </h3><p id="text3">Example Text</p>
+		<form>
+			<input id="input3" name="input3" value="Input Text Here" type="text">
+			<input type="button" value="Change Text #3" onclick="changeText3();" />
+		</form>
+		<hr>
+		<h3>Text #4: </h3><p id="text4">Billy walked on the sidewalk alongside a busy street and
+			licked a lolli-pop.</p>
+		<input type="button" value="Select all the Nouns" onclick="changeText4();" />
+		<hr>
+		<h3>Do Addition</h3>
+		<form>
+			<input id="num1" name="num1" value="5" type="text">+
+			<input id="num2" name="num2" value="10" type="text">
+			<input type="button" value="Add Together" onclick="doAddition();" />
+		</form>
+		<br>
+		The answer is: <p id="num1+num2"></p>
+		<br>
+	</body>
+</html>
