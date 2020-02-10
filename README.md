@@ -1,5 +1,5 @@
-# CSW223 Class Assignments
- A repository containing multiple small projects created in my third web design class (CSW 223: Programming for Interactive Media) at the University of Mount Union taught by Dr. James Klayder.
+# CSW223: Programming for Interactive Media
+A repository containing multiple small projects created in my third web design class (CSW 223: Programming for Interactive Media) at the University of Mount Union taught by Dr. James Klayder.
 
 Some code is supplied by Dr. James Klayder and modified by Alec Barker.
 
